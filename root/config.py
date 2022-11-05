@@ -17,5 +17,5 @@ class Config(object):
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://manju:manju@cluster0.ufpy5w1.mongodb.net/?retryWrites=true&w=majority")
     # owner is for log cmd only owner can use (this can be multiple users)
     OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "2083503061")
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "jack sparrow")
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "bhatmanju")
     CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", False)
